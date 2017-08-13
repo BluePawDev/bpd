@@ -1,0 +1,36 @@
+{
+  "name": "bpd",
+  "version": "1.0.0",
+  "description": "Blue Paw Development site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BluePawDev/bpd.git"
+  },
+  "keywords": [
+    "'blue",
+    "paw",
+    "dev'",
+    "development",
+    "angular",
+    "node",
+    "express",
+    "javascript",
+    "fullpage"
+  ],
+  "author": "jaruby@me.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BluePawDev/bpd/issues"
+  },
+  "homepage": "https://github.com/BluePawDev/bpd#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "express": "^4.15.4",
+    "fullpage.js": "^2.9.4"
+  }
+}
