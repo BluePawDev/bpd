@@ -2,7 +2,7 @@
   "name": "bpd",
   "version": "1.0.0",
   "description": "Blue Paw Development site updated and rebranded",
-  "main": "index.js",
+  "main": "client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -24,10 +24,7 @@
     "url": "git+https://github.com/BluePawDev/bpd.git"
   },
   "keywords": [
-    "'blue",
-    "paw",
-    "dev'",
-    "development",
+    "javascript",
     "angular",
     "node",
     "express"
