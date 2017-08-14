@@ -10,4 +10,9 @@ myApp.config(function($routeProvider) {
 		templateUrl: "views/partials/register.html",
 		controller: "registerController as lc"
 	})
+
+	$(document).ready(function() {
+		$('#fullpage').fullpage();
+	});
+
 });
