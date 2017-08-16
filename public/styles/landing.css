@@ -9,7 +9,6 @@
 
 .code-wash {
   width: 100%;
-  /*clip-path: inset(0 0 60% 0);*/
   border: 1px solid black;
   z-index: 1;
   float: left;
@@ -17,6 +16,15 @@
 
 .blue-door {
   float: left;
+  width: 35%;
+  height: 35%;
+}
+
+.divLandingBottom {
+  border: 1px solid black;
+  z-index: 100;
+  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .jruby:hover {
@@ -32,10 +40,10 @@
 }
 
 .jruby {
-  border: 1px solid black;
   z-index: 100;
-  font-size: 5.2em;
-  line-height: .9em;
+  padding-top: 15px;
+  font-size: 4.8em;
+  line-height: 1em;
   font-weight: 500;
   color: #16197F;
   font-weight: bold;
@@ -43,26 +51,37 @@
 }
 
 .divLadningText {
-  border: 1px solid black;
   z-index: 99;
-  color: #141419;
-  font-weight: bold;
-  font-size: 1.4em;
-  line-height: .9em;
+  display: inline-block;
+  float: right;
+  margin: 0 auto;
 }
 
-.divLandingSubtext {
-  border: 1px solid black;
-  z-index: 100;
+.landingText {
+  z-index: 99;
+  margin: 0 auto;
+  padding-top: 10px;
+  color: #141419;
+  font-weight: bold;
+  font-size: 1.6em;
+  line-height: 1.2em;
+}
+
+.landingSubText {
+  z-index: 99;
+  margin: 0 auto;
+  padding-top: 10px;
   color: #141419;
   font-size: 1.2em;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 .imgBlueDoor {
-  border: 1px solid black;
-  margin: 10px;
-  padding: 5px;
+  display: inline-block;
   float: left;
-  width: 50%;
+}
+
+.bpd-land {
+  align-items: center;
+  float: right;
 }
